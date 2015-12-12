@@ -34,14 +34,18 @@ section{
 @media (min-width: 768px) {
   .bg-holder#pic1 {
     background-image: url('assets/pic1_bigger.jpg');
+    background-size: 100%;
   }
   .bg-holder#pic2 {
     background-image: url('assets/pic2_bigger.jpg');
+    background-size: 100%;
   }
   .bg-holder#pic3 {
     background-image: url('assets/pic3_bigger.jpg');
+    background-size: 100%;
   }
   .bg-holder#pic4 {
     background-image: url('assets/pic4_bigger.jpg');
+    background-size: 100%;
   }
 }
