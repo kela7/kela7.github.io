@@ -1,0 +1,137 @@
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar-brand {
+  width: 60px;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+#navbar {
+  font-family: Impact;
+}
+
+/* All parent elements of .bg-holder must be 100% height for vertical stretch to work */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-holder {
+  width: 100%;
+  height: 100%;
+}
+
+section{
+	padding: 60px 10px;
+}
+
+.bg-holder#pic1 {
+  background-image: url("FEWD70/FinalP/assets/pic1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-holder#pic2 {
+  background-image: url("FEWD70/FinalP/assets/pic2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-holder#pic3 {
+  background-image: url("FEWD70/FinalP/assets/pic3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-holder#pic4 {
+  background-image: url("FEWD70/FinalP/assets/pic4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/*MODAL CONTENT
+---------------------------------------- */
+
+.modal-content iframe{
+        margin: 0 auto;
+        display: block;
+    }
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+@media (min-width: 400px) {
+  .bg-holder#pic1 {
+    background-image: url("FEWD70/FinalP/assets/pic1_bigger.jpg");
+    background-repeat: none;
+  }
+  .bg-holder#pic2 {
+    background-image: url("FEWD70/FinalP/assets/pic2_bigger.jpg");
+    background-repeat: none;
+  }
+  .bg-holder#pic3 {
+    background-image: url("FEWD70/FinalP/assets/pic3_bigger.jpg");
+    background-repeat: none;;
+  }
+  .bg-holder#pic4 {
+    background-image: url("FEWD70/FinalP/assets/pic4_bigger.jpg");
+    background-repeat: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+

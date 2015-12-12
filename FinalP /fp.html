@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>My Final Project</title>
+
+	<!-- Bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="fp.css" rel= "stylesheet"> 
+	<link href="fp2.css" rel= "stylesheet">
+</head>
+
+<body>
+  	<!-- NAVBAR
+  	================================================== -->
+  	<div class="navbar-wrapper">
+  		<div class="container">
+
+  			<nav class="navbar navbar-inverse navbar-fixed-top">
+  				<div class="container">
+  					<div class="navbar-header">
+  						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+  							<span class="sr-only">Toggle navigation</span>
+  							<span class="icon-bar"></span>
+  							<span class="icon-bar"></span>
+  							<span class="icon-bar"></span>
+  						</button>
+  						<a class="navbar-brand" href="#"><img class="navbar-brand"src ="http://cms.bbcomcdn.com/fun/images/2015/squat-every-day-logo.png"></a>
+  					</div>
+  					<div id="navbar" class="navbar-collapse collapse">
+  						<ul class="nav navbar-nav">
+  							<li class="active"><a href="#">Main</a></li>
+  							<li><a href="#program">Program</a></li>
+  							<li><a href="#nutrition">Nutrition/Supplements</a></li>
+  							<li><a href="#variations">Variations</a></li>
+  							<li><a href="#started">Get Started</a></li>
+  							<li class="dropdown">
+  								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigate <span class="caret"></span></a>
+  								<ul class="dropdown-menu">
+  									<li role="separator" class="divider"></li>
+  									<li class="dropdown-header">Home</li>
+  									<li><a href="#">Training</a></li>
+  									<li><a href="#">Nutrition & Supps</a></li>
+  									<li><a href="#">Squat Variations</a></li>
+  									<li><a href="#">Week 1</a></li>
+  									<li><a href="#">Day 1- Chest</a></li>
+  									<li><a href="#">Day 2- Pull</a></li>
+  									<li><a href="#">Day 3- Arms</a></li>
+  									<li><a href="#">Day 4- Shoulders</a></li>
+  									<li><a href="#">Day 5- Chest & Back</a></li>
+  									<li><a href="#">Day 6- Squat</a></li>
+  									<li><a href="#">Day 7- Squat</a></li>
+  								</ul>
+  							</li>
+  						</ul>
+  					</div>
+  				</div>
+  			</nav>
+
+  		</div>
+  	</div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    	<!-- Indicators -->
+    	<ol class="carousel-indicators">
+    		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    		<li data-target="#myCarousel" data-slide-to="1"></li>
+    		<li data-target="#myCarousel" data-slide-to="2"></li>
+    	</ol>
+    	<div class="carousel-inner" role="listbox">
+    		<div class="item active">
+    			<img class="first-slide" src="http://cms.bbcomcdn.com/fun/images/2015/triple-your-gains-with-squat-every-day-3-facebook.jpg" alt="First slide">
+    			<div class="container">
+    				<div class="carousel-caption">
+    					<h1>Squat Every Day 4 Week Challenge</h1>
+    					<p>Squat Every Day will challenge you, test your resolve, and reveal your character. But if you have what it takes to squat daily, you'll gain strength, build muscle, and become a better lifter. This is for the hardcore.</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="item">
+    			<img class="second-slide" src="http://cms.bbcomcdn.com/fun/images/2015/squat-every-day-training-overview-facebook-box.jpg" alt="Second slide">
+    			<div class="container">
+    				<div class="carousel-caption">
+    					<h1>Squat Every Day 4 Week Challenge</h1>
+    					<p>Squat every day to add total-body strength, size, and a massive serving of mental fortitude to your gym repertoire. This is for the hardcore.</p>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="item">
+    			<img class="third-slide" src="http://www.nerdfitness.com/wp-content/uploads/2009/07/squat-713x481.jpg" alt="Third slide">
+    			<div class="container">
+    				<div class="carousel-caption">
+    					<h1>Squat Every Day 4 Week Challenge</h1>
+    					<p>Want a squat you can be proud of? Follow Cory Gregory's Squat Every Day trainer and you'll have the whole gym watching you hit big weight!</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+
+    	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    		<span class="sr-only">Previous</span>
+    	</a>
+    	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    		<span class="sr-only">Next</span>
+    	</a>
+    </div><!-- /.carousel -->
+
+<!--Marketing Message and Modal Features
+======================================= -->
+
+    <div id= "pic1" class="bg-holder" data-width="744" data-height="357">
+    	<img class="pic" src="http://cms.bbcomcdn.com/fun/images/2015/squat-every-day-logo.png">
+    </div>
+
+    <section>
+    	<div class="row">
+    		<div class="col-lg-4">
+    			<img class="img-circle" src="https://cdn-img-0.wanelo.com/p/0e6/5d0/c51/cbab40e2b3800d2449c4758/x354-q80.jpg" alt="Generic placeholder image" width="140" height="140">
+    			<h2>Program</h2>
+    			<p>By going through this program, you'll not only get physically stronger, but you'll also increase your muscle mass and become an expert in the squat movement pattern itself. If your goal coming here was to find a plan that challenges you in every way, then you've found it. After you squat every day, everything else will seem easy.</p>
+    			<p><a class="btn btn-default1" href="#" role="button" data-toggle="modal" data-target="#myModal_1">View details &raquo;</a></p>
+
+    			<!-- Modal -->
+    			<div class="modal fade" id="myModal_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    				<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+    						<div class="modal-header">
+    							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    							<h4 class="modal-title" id="myModalLabel">Program</h4>
+    						</div>
+    						<div class="modal-body1">
+    							<p class ="title1">SQUAT EVERY DAY PROGRAM</p>
+    							<p class="p">Most people try to squat once per week. And by "try," I mean I see guys squatting a quarter of the way down, skipping sets, and doing more talking than actual work. I built this trainer on the premise that, every single day, you're going to shut up and you're going to squat.</p>
+
+    							<p class="p">You're not doing leg press or Smith machine squats. You're putting actual weight on an actual barbell and you're free squatting. That's how this program works. It might sound crazy, but it's meant to be hard. There is no "easy" mode. Make it tough and reap the rewards.</p>
+    							<img src= "https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/12341472_10153228714958016_7820820100893196971_n.jpg?oh=a46c3ffa112ae1aa48f9aca8c547a4f2&oe=56F7DAFE">
+    							<p class="p">If you're a gym novice or simply worried that you can't handle daily squats, toss that worry aside. "I had three different kids at three different levels start this program at the same time," says Broz. "One year later, they all made identical gains. They all went up almost 200 pounds in their squat in a year. So, no matter where you start, you can make progress. Nobody has a monopoly on strength. Everybody can get stronger."</p>
+
+    							<p class="p">Over the next 30 days, you'll learn and do 11 squat variations. So, each day you'll squat a little differently, testing yourself under slightly different loads and patterns. No matter what variation you do, though, you need to bring your very best effort to the rack. Anything less would be disrespectful.erfect right away. Take your time and get to know your body as you move forward.</p>
+    						</div>
+    						<div class="modal-footer">
+    							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+    		</div><!-- /.col-lg-4 -->
+    		<div class="col-lg-4">
+    			<img class="img-circle" src="http://cms.bbcomcdn.com/fun/images/2015/squat-every-day-nutrition-graphics-2.jpg" width="140" height="140">
+    			<h2>Nutriton/Supplements</h2>
+    			<p>The Squat Every Day nutrition plan gives you the opportunity to choose whether you want to build muscle or carve a leaner physique. The training program will stay the same, but you'll alter your daily food and supplement program to support either goal. If you're training primarily for strength gains, I'd go with the muscle-building plan.</p>
+    			<p><a class="btn btn-default2" href="#" role="button" data-toggle="modal" data-target="#myModal_2">View details &raquo;</a></p>
+
+    			<!-- Modal -->
+    			<div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    				<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+    						<div class="modal-header">
+    							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    							<h4 class="modal-title" id="myModalLabel"></h4>
+    						</div>
+    						<div class="modal-body2">
+    							<p class ="title1">SQUAT EVERY DAY NUTRITION PROGRAMS</p>
+    							<p class="p">If you're accustomed to seeing a bodybuilder-style program, the calories for each of these plans may seem high. However, it's worth repeating that the amount of work you're going to do in the gym is going to require a lot of food, so don't be afraid of the almighty calorie.</p>
+
+    							<p class="p">Of course, if you have a lot of weight to lose, or if you're a relatively light female, you may need to dip below the calorie totals listed below. But don't eat less than 1700 calories per day. Given the amount of work in this trainer, that's the lower limit I'd recommend. In fact, I maintain my physique and strength at about 3,000 calories, but that may not work for you.</p>
+    							<img src= "http://images.askmen.com/news/sports/forget-calorie-counting-eat-this-much-website-tells-you-exactly-what-to-eat_1432124228.jpg">
+    							<p class="p">If you're unsure of where to start, choose a calorie and macronutrient total and test it out for a couple for weeks. If you're feeling exhausted, have constant and debilitating soreness, or are losing more than two pounds per week, you're not eating enough. If, on the other hand, you're on the fat-loss plan and notice that the scale isn't moving in the right direction, you may be eating too much.</p>
+
+    							<p class="p">Starting a new nutrition and supplement program can take a little time and experimentation to get right. Don't stress about getting it perfect right away. Take your time and get to know your body as you move forward.</p>
+    						</div>
+    						<div class="modal-footer">
+    							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+
+    		</div><!-- /.col-lg-4 -->
+    		<div class="col-lg-4">
+    			<img class="img-circle" src="http://cms.bbcomcdn.com/fun/images/2015/program-overview-graphics-2.jpg" alt="Generic placeholder image" width="140" height="140">
+    			<h2>Variations</h2>
+    			<p class="p">Each squat variation will feel a little different and will challenge you in a different way. After going through each of them for 30 days, your form will be better and you'll be stronger in every part of the lift. Your muscles will know exactly how to fire so you can move more weight than you ever have.</p>
+    			<!-- Button trigger modal -->
+    			<p><a class="btn btn-default3" href="#" role="button" data-toggle="modal" data-target="#myModal_3">View details &raquo;</a></p>
+
+    			<!-- Modal -->
+    			<div class="modal fade" id="myModal_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    				<div class="modal-dialog" role="document">
+    					<div class="modal-content">
+    						<div class="modal-header">
+    							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    							<h4 class="modal-title" id="myModalLabel">Variations</h4>
+    						</div>
+    						<div class="modal-body3">
+    							<p class="p">As you progress through Squat Every Day, you'll notice that some variations challenge you more than others. You have to go after those variations specifically, rather than avoiding them. If one particular variation exposes your weakness, you can't be a wuss and skip it. Do all the work, and your overall squat game will be unbeatable.</p>
+
+    							<p class="title1">SQUAT EVERY DAY SQUAT VARIATIONS</p> 
+    							<p class="p">Note: Each time you come around to a particular squat variation, you should try to do more weight than you did the time before. So, if you hit 250 the first time you attempted a front squat, then you know you need to go for 255 or even 260 the next time, depending on how that first successful attempt felt.</p>
+
+    							<p class="title1">VARIATION 1 CLOSE-STANCE DEEP SQUAT</p>
+    							<p class="p">The close-stance deep squat is the most basic squat variation you'll perform. It's an Olympic-style squat, so the bar will sit right on top of your traps, and you'll squat until your hip crease falls beneath your knee caps.</p>
+
+    							<p class="p">When you remove the bar from the rack, move your feet so they are about shoulder-width apart, and squeeze your shoulder blades together. Keep your core tight by pushing your abs out and down. As you squat, keep your knees out toward your pinky toes. Explode out of the hole with speed.</p>
+
+    							<img src="https://scontent-lga3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/12278800_10153225829583016_7752522665014511275_n.jpg?oh=31b5b6b196f88f31071322ed064c0b9c&oe=56DB8F17">
+    							<p class="p">When you use a belt, wear it correctly. The belt should be very tight, and should be worn around your torso at the belly button, not down at your waist. Use the rack to help pull your belt as tight as possible.</p>
+
+    							<p class="title1">VARIATION 2 FRONT SQUAT</p>
+    							<p class="p">Having the bar in the front rack position can be difficult for a lot of people. Without the necessary shoulder and wrist mobility, it can be impossible to put the bar on your shoulders with your elbows pointing out.</p>
+
+    							<p class="title1">VARIATION 3 WIDE-STANCE SQUAT</p>
+    							<p class="p">This powerlifting-style squat may feel a little weird at first, but you should be able to move more weight because you're going through a shorter range of motion.</p>
+
+    							<p class="title1">SQUAT TILL YOU GROW</p>
+    							<p class="p">Now that you're familiar with some of the types of squats you're going to perform throughout Squat Every Day, check out the other overview pages—if you haven't already—and get ready to find out who you really are. This is your hardcore.</p>
+    					</div>
+    					<div class="modal-footer">
+    						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+
+    	</div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+</section>
+
+<!--Featurettes
+	============================================ -->
+<div id= "pic2" class="bg-holder" data-width="744" data-height="357">
+</div>
+
+<section>
+	<div class= "container">
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-7">
+				<h2 class="featurette-heading">Program <span class="text-muted">It'll blow your mind.</span></h2>
+				<p class="lead">Yes, you'll be doing your squats every day, but you're also going to be hitting your normal split after them. Starting at the squat rack will set an intense tone for the rest of your workout. Believe me; it will prime your body for hard work and significant growth.
+
+				</p>
+			</div>
+			<div class="col-md-5">
+				<img class="featurette-image1" src="http://cms.bbcomcdn.com/fun/images/2015/squat-every-day-program-video-feature2.jpg" >
+			</div>
+		</div>
+
+		<div id="myModal1" class="modal fade">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">YouTube Video</h4>
+					</div>
+					<div class="modal-body">
+						<iframe id= "programVid" width="714" height="402" src="https://www.youtube.com/embed/LoxV1FR0IKg" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>     
+
+	<hr class="featurette-divider">
+
+	<div class="row featurette">
+		<div class="col-md-7 col-md-push-5">
+			<h2 class="featurette-heading">Nutrition/Supplements <span class="text-muted">See for yourself.</span></h2>
+			<p class="lead">If you follow the Squat Every Day training plan with 100 percent intensity, but you don't really follow the nutrition and supplement program, you'll still get results, but you won't really get that carved, straight-nasty look and strength you really crave. So, follow the plan: Train your ass off, eat well, and take supplements.</p>
+		</div>
+		<div class="col-md-5 col-md-pull-7">
+			<img class="featurette-image2" src="http://cms.bbcomcdn.com/fun/images/2015/squat-every-day-nutrition-video-feature.jpg">
+		</div>
+	</div>
+
+	<div id="myModal2" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">YouTube Video</h4>
+				</div>
+				<div class="modal-body">
+					<iframe id="nutritionVid" width="714" height="402" src="https://www.youtube.com/embed/SncZBNUal8Q" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>     
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+	<div class="col-md-7">
+		<h2 class="featurette-heading">Variations <span class="text-muted">Checkmate.</span></h2>
+		<p class="lead">Throughout Squat Every Day, you'll encounter 11 different types of squats, so you get to challenge yourself in a unique way every time you step into the rack. If you're a longtime, veteran squatter, this is the perfect chance to test yourself; if you're new to the rack, this is the best way to become a squat master in a short time.</p>
+	</div>
+	<div class="col-md-5">
+		<img class="featurette-image3" src="http://cms.bbcomcdn.com/fun/images/2015/squat-every-day-squat-variations-feature2.jpg" >
+	</div>
+</div>
+
+<div id="myModal3" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">YouTube Video</h4>
+			</div>
+			<div class="modal-body">
+				<iframe id="variationsVid" width="714" height="402" src="https://www.youtube.com/embed/vP9mbWu4eus" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+</div>     
+<hr class="featurette-divider">
+
+<div class="row featurette">
+	<div class="col-md-7 col-md-push-5">
+		<h2 class="featurette-heading">Get Started! <span class="text-muted">Let's get down and Dirty!</span></h2>
+		<p class="lead">Support your performance and physique goals by following the muscle-building or fat-loss meal and supplement program. You can do all the work in the gym, but if you don't bring it to the kitchen, you won't see the results you're after.
+
+			Ready to squat? Let's get in the rack.
+
+		</p>
+	</div>
+	<div class="col-md-5 col-md-pull-7">
+		<img class="featurette-image img-responsive center-block" src="https://www.t-nation.com/system/publishing/articles/10003163/medium/5-Ways-You're-Screwing-Up-Your-Squat.jpg?1447198127" >
+	</div>
+</div>
+
+<hr class="featurette-divider">
+
+<!-- /END THE FEATURETTES -->
+</div>
+</section>
+
+
+<div id= "pic3"class="bg-holder" data-width="713" data-height="481"></div>
+
+<section>
+	<div class= "container">
+		<p class="start">Squat Everyday Calendar</p>
+			<img class="container_pic"src= "https://scontent-lga3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12311213_10153228828358016_4666942958255632721_n.jpg?oh=7f2ebbe58048b5bf92f3cda151cb7e71&oe=56DEB010">
+		<p class="container_p1">Each day (except Sundays), you will try to hit your one-rep max. Today is a great day to test your starting point. Write down what you squat today and keep that number in the back of your mind. Do the same for each squat variation you do throughout the trainer. It should be your goal to squat more weight each week. If you do the program as it's designed, you'll see a much better squat number than you started with.</p>
+
+<p class="container_p1">After you squat, you'll move to some conditioning work. After that, you'll do a push workout to hit your chest and triceps. It's a lot to get through in one workout, but if you don't waste time talking or resting you'll get through it within 90 minutes.</p>
+
+<p class="container_p1">Support your performance and physique goals by following the muscle-building or fat-loss meal and supplement program. You can do all the work in the gym, but if you don't bring it to the kitchen, you won't see the results you're after.</p>
+
+<p class="container_p2">Ready to squat? Let's get in the rack.<p/>
+	</div>
+</section>
+<!--End of Featurette -->
+
+<div id= "pic4" class="bg-holder" data-width="714" data-height="401"></div>
+<section>
+	<div class= "container">
+		<!-- FOOTER -->
+		<footer>
+			<p class="pull-right"><a href="#">Back to top</a></p>
+			<p>&copy; 2015 Kela's Final Project. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+		</footer>
+
+	</div><!-- /.container -->
+</div>
+</section>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="jquery.parallax-scroll.min.js"></script>
+<script src="fp.js"></script>
+<script src="modal.js"></script>
+
+</body>
+</html>
